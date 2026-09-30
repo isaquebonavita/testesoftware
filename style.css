@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  width: 320px;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+/* Efeito visual CSS (Muda cor e tamanho ao passar o mouse) */
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+.mensagem {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.sucesso {
+  color: #28a745;
+}
+
+.erro {
+  color: #dc3545;
+}
